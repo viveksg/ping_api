@@ -22,3 +22,12 @@ So if you want to test using google.com
 http://0.0.0.0:5000/ping?host=google.com  
 
 Output will be line_protocol_data in json
+
+    {
+      "line_protocol_data": [
+           "ping_data,interface=lo status=unsuccessful 1538514601", 
+           "ping_data,interface=enp3s0 status=unsuccessful 1538514601", 
+           "ping_data,interface=wlp2s0 status=successful 1538514603", 
+           "ping_data,interface=docker0 status=unsuccessful 1538514603"
+       ]
+    }
